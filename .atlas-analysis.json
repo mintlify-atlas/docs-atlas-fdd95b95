@@ -1,0 +1,166 @@
+{
+  "projectType": "saas",
+  "projectName": "Realtors Practice",
+  "projectDescription": "AI-powered Nigerian real estate platform with intelligent search, automated scraping, and property intelligence",
+  "theme": "palm",
+  "primaryColor": "#040404",
+  "lightColor": "#0404fc",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "architecture"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/property-search",
+              "features/ai-search",
+              "features/map-explorer",
+              "features/scraping-engine",
+              "features/data-intelligence"
+            ]
+          },
+          {
+            "group": "User Guides",
+            "pages": [
+              "guides/search-properties",
+              "guides/saved-searches",
+              "guides/property-details",
+              "guides/notifications"
+            ]
+          },
+          {
+            "group": "Admin Dashboard",
+            "pages": [
+              "admin/overview",
+              "admin/property-management",
+              "admin/scraper-control",
+              "admin/data-explorer",
+              "admin/analytics"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/environment",
+              "development/database",
+              "development/deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/introduction",
+              "api/authentication",
+              "api/rate-limits",
+              "api/errors"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api/properties",
+              "api/search",
+              "api/scraping",
+              "api/saved-searches",
+              "api/notifications",
+              "api/users",
+              "api/sites",
+              "api/analytics"
+            ]
+          },
+          {
+            "group": "Real-time",
+            "pages": [
+              "api/websockets",
+              "api/events"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Technical",
+        "groups": [
+          {
+            "group": "Architecture",
+            "pages": [
+              "technical/system-architecture",
+              "technical/data-model",
+              "technical/scraping-pipeline",
+              "technical/search-engine"
+            ]
+          },
+          {
+            "group": "Frontend",
+            "pages": [
+              "technical/frontend-stack",
+              "technical/components",
+              "technical/state-management",
+              "technical/map-integration"
+            ]
+          },
+          {
+            "group": "Backend",
+            "pages": [
+              "technical/backend-stack",
+              "technical/api-design",
+              "technical/database-schema",
+              "technical/caching"
+            ]
+          },
+          {
+            "group": "Scraper",
+            "pages": [
+              "technical/scraper-architecture",
+              "technical/extractors",
+              "technical/validation",
+              "technical/deduplication"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered natural language property search",
+    "Automated web scraping from Nigerian real estate sites",
+    "Interactive map-based property exploration with clustering",
+    "Real-time search alerts and saved searches",
+    "Comprehensive property intelligence and price tracking",
+    "Admin dashboard with scraper control and analytics",
+    "Multi-provider map support (OSM, Mapbox, Google Maps)",
+    "Property versioning and audit trail"
+  ],
+  "publicApiSurface": [
+    "GET /api/properties - List and filter properties",
+    "GET /api/properties/:id - Get property details",
+    "POST /api/search - Natural language property search",
+    "GET /api/search/filters - Get available search filters",
+    "POST /api/scrape/passive - Trigger bulk scraping",
+    "POST /api/scrape/active - Intent-based targeted scraping",
+    "GET /api/scrape/jobs - List scraping jobs",
+    "POST /api/saved-searches - Create saved search",
+    "GET /api/saved-searches - List saved searches",
+    "GET /api/notifications - Get user notifications",
+    "POST /api/auth/register - User registration",
+    "POST /api/auth/login - User authentication",
+    "GET /api/sites - List scraper site configurations",
+    "GET /api/analytics/overview - Platform analytics",
+    "WebSocket /socket.io - Real-time updates"
+  ]
+}
